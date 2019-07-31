@@ -1,0 +1,11 @@
+ul.heroes {
+    li {
+        cursor: pointer;
+        &:hover {
+            text-decoration: underline;
+        }
+        &.selected {
+            background: #eee;
+        }
+    }
+}
